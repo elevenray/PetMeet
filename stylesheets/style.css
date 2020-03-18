@@ -1,0 +1,54 @@
+/* About and Contact */
+/*  general  rules for our  styles, this is where we get to havwe some fun*/
+.aboutImg, .contactImg, .loginImg {
+  width: 110%;
+  margin-bottom: 25px;
+}
+.titleAboutUs {
+  background-color:#f4ed90;
+  padding: 10px;
+}
+#marginAboutUs {
+  margin-bottom: 12%;
+  margin-top: 5%;
+  border-radius:15px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+#contactForm, #cssLogin {
+  background-color: #e24f15;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-size: 30px;
+  font-weight: 700;
+  color: rgb(54, 98, 240);
+}
+
+h1 {
+  font-size: 40px;
+  color: rgb(190, 63, 221);
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 30px;
+  color: rgb(150, 197, 22);
+  font-weight: 700;
+}
+
+/*Login/registration styles */
+#cssLogin{
+  width:75%;
+  margin-left:10%;
+  margin-top: 5%;
+  margin-bottom:10%;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
