@@ -1,95 +1,30 @@
--- phpMyAdmin SQL Dump
--- version 4.9.0.1
--- https://www.phpmyadmin.net/
---
--- Host: localhost:8889
--- Generation Time: Mar 18, 2020 at 05:25 AM
--- Server version: 5.7.26
--- PHP Version: 7.3.8
+## Created by 
 
-SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET time_zone = "+00:00";
 
---
--- Database: `userdata`
---
+## Summary of the project
+Our project is about Pet Meet
 
--- --------------------------------------------------------
+The project included the following functionality: 
 
---
--- Table structure for table `inbox`
---
+Login, Register, Pushing and Pulling data from database, sending request from one user to another with accept or decline option.
 
-CREATE TABLE `inbox` (
-  `id` bigint(20) NOT NULL,
-  `sender` varchar(255) NOT NULL,
-  `receiver` varchar(255) NOT NULL,
-  `playdate` time NOT NULL,
-  `playtime` time NOT NULL,
-  `address` varchar(255) NOT NULL,
-  `requestingstate` varchar(255) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+We are using php as Frontend (Website Interface), Mysql as Backend (Apache), 
 
--- --------------------------------------------------------
+We will explain in detail on how to setup the project and as well as run using Yarn.
 
---
--- Table structure for table `pet`
---
+We also included the setup of sql data.
 
-CREATE TABLE `pet` (
-  `username` varchar(255) NOT NULL,
-  `petname` varchar(255) NOT NULL,
-  `imgURL` varchar(255) NOT NULL,
-  `description` mediumint(9) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+This project was bootstrapped with [Php](https://www.php.net/manual/en/language.types.resource.php).
 
--- --------------------------------------------------------
+This project used Mysql as Database [Xampp](https://blog.templatetoaster.com/xampp-mysql/).
+This project used Mysql as Database [Mamp](http://blog-en.mamp.info/2009/08/using-mysql-command-line-with-mamp.html.
 
---
--- Table structure for table `registration`
---
 
-CREATE TABLE `registration` (
-  `id` bigint(20) NOT NULL,
-  `email` varchar(255) NOT NULL,
-  `password` varchar(255) NOT NULL,
-  `username` varchar(255) NOT NULL,
-  `address1` varchar(255) NOT NULL,
-  `address2` varchar(255) NOT NULL,
-  `city` varchar(255) NOT NULL,
-  `state` varchar(255) NOT NULL,
-  `zip` varchar(5) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
---
--- Dumping data for table `registration`
---
+## How to Run Website
+1. Clone Repository
+2. Start Xampp or Mamp
+3. In your browser type "localhost::3000/PetMeet" [Xammp] or "localhost:/PetMeet" [Mamp]
 
-INSERT INTO `registration` (`id`, `email`, `password`, `username`, `address1`, `address2`, `city`, `state`, `zip`) VALUES
-(1, 'jack@gmail.com', '67ff8c6e5f0ff4d32dc8d6a805e1c6e7', 'jack', 'jack', '', 'Costa Mesa', 'CA', '92626');
-
---
--- Indexes for dumped tables
---
-
---
--- Indexes for table `pet`
---
-ALTER TABLE `pet`
-  ADD PRIMARY KEY (`username`);
-
---
--- Indexes for table `registration`
---
-ALTER TABLE `registration`
-  ADD PRIMARY KEY (`id`);
-
---
--- AUTO_INCREMENT for dumped tables
---
-
---
--- AUTO_INCREMENT for table `registration`
---
-ALTER TABLE `registration`
-  MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+## Setting up mysql
+Import file called "userdata.sql" to my sql and your database should be ready. 
