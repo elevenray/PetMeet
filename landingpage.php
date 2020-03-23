@@ -26,13 +26,13 @@
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-            <img src="https://i.redd.it/4qfsciqqcy811.jpg" class="d-block w-100" alt="...">
+            <img src="https://catworld.co/wp-content/uploads/2019/03/two-friendly-cats-playing.jpg" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-            <img src="http://cdn.akc.org/content/article-body-image/samoyed_puppy_dog_pictures.jpg" class="d-block w-100" alt="...">
+            <img src="https://i.ytimg.com/vi/FHytoCvj90w/maxresdefault.jpg" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-            <img src="https://cdn.pixabay.com/photo/2019/08/19/07/45/pets-4415649__340.jpg" class="d-block w-100" alt="...">
+            <img src="https://i.ytimg.com/vi/OaO9aZNkl-o/maxresdefault.jpg" class="d-block w-100" alt="...">
             </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">

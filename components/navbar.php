@@ -1,4 +1,5 @@
 <!-- Start Navigation -->
+<!-- This is where we create the navigation bar at the top of the web page-->
 <nav class ="navbar navbar-expand-md navbar-light bg-light sticky-top">
 <?php if(isset($_SESSION['is_login'])){ ?>
   <a class="navbar-brand" href="index.php">PetMeet</a>

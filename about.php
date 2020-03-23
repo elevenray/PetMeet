@@ -16,7 +16,7 @@ session_start();
     <!-- Here we will begin creating most of the components we will be viewing in the about page
     general descritption of our page should be here-->
     <div id="marginAboutUs" class="jumbotron jumbotron-fluid container text-center">
-      <h1 class="titleAboutUs"> About PetMeet</h1>
+      <h1 class="titleAboutUs">About PetMeet</h1>
       <img class="aboutImg" src="images/aboutImg.jpg">
       <div class="row mb-5">
         <div class="col">
@@ -24,7 +24,7 @@ session_start();
           <p> PetMeet is a place dedicated to connecting your pet with potential new friends and possible mates! </p>
           <br>
           <h2> How will I introduce my pets to their new friends?  </h2>
-          <p> Simply search for the profile of an animal that you like, send them a request,and schedule a playdate with your pet's new best friend!</p>
+          <p> Simply search for the profile of an animal that you like, send them a request, and schedule a playdate with your pet's new best friend!</p>
           <br>
           <h2> BOOM! Youre all set! </h2>
           <p> That's all it the requirements for your playdate!</p>
@@ -33,7 +33,7 @@ session_start();
             <h1> Play TODAY! </h1>
             <p>Create and Schedule a Playdate NOW!. </p>
             <a href="register.php" style="text-decoration:none;">
-              <button type="button" class="btn btn-success">Register Account</button>
+              <button type="button" class="btn btn-success">Register Today!</button>
             </a>
         </div>
         </div>

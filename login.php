@@ -44,17 +44,17 @@ require 'components/navbar.php';
   <div class="jumbotron" id="cssLogin">
     <img class="loginImg" src="images/loginImg.jpg">
       <hr class="my-3">
-      <h4 class="display-5" >Login</h4>
+      <h4 class="display-5" >User Login</h4>
       <hr class="my-3">
       <?php if(isset($messages)) echo $messages; ?>
       <form action="" method="POST" >
           <div class="form-group">
             <label class="bodytxt" for="exampleInputEmail1">Email</label>
-            <input name="email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            <input name="email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Email">
           </div>
           <div class="form-group">
             <label class="bodytxt" for="exampleInputPassword1">Password</label>
-            <input name="password" type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            <input name="password" type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter Password">
           </div>
           <button name="login" id="login" type="submit" class="btn btn-primary">Submit</button>
         </form>
