@@ -23,9 +23,6 @@
       $petname = "";
       $imgURL = "";
       $description = "";
-      //echo "petname: $petname";
-      //echo "imgURL: $imgURL";
-      //echo "description: $description";
     }
     else {
       while ($row = mysqli_fetch_assoc($result)) {
