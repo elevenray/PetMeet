@@ -1,5 +1,7 @@
-## Created by 
-
+## Created by UACDOOM
+James Puragao
+Juan Linares
+Raymond Laurente
 
 ## Summary of the project
 Our project is about Pet Meet
