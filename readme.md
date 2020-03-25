@@ -12,7 +12,6 @@ Login, Register, Pushing and Pulling data from database, sending request from on
 
 We are using php as Frontend (Website Interface), Mysql as Backend (Apache), 
 
-We will explain in detail on how to setup the project and as well as run using Yarn.
 
 We also included the setup of sql data.
 
